@@ -1,5 +1,5 @@
 {% set name = "sphractal" %}
-{% set version = "0.4.4" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphractal-{{ version }}.tar.gz
-  sha256: cb45095b6e43d88eb42d998ac0b4b4a6e20201d28dfe8db96e32abf0d2738e90
+  sha256: 551a8f2a4262138584ceec2a8aae2a91efc50eb8a8811620e6d9ff29479810a0
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - python >=3.9
     - matplotlib-base >=3.7.1
     - statsmodels >=0.14.0
-    - scipy >=1.11.0
+    - scipy >=1.11.1
     - numba >=0.57.1
     - numpy >=1.22,<1.25
 
