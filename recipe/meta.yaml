@@ -1,5 +1,5 @@
 {% set name = "sphractal" %}
-{% set version = "0.9.1" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphractal-{{ version }}.tar.gz
-  sha256: 6ed6fa0d711687ac8b850dcb9f329280cc25e525bc1d8f34b2f95a9519028509
+  sha256: a6889a180b3068188a0728e1550a38675b6868ac0ab8ccd9e09738460b555889
 
 build:
   noarch: python
